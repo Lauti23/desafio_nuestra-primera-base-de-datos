@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(118, 52, 52);
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin: 2rem 0;
+    font-style: italic;
+    font-weight: 900;
+    font-size: 3rem;
+}
+
+#productsForm {
+    width: 50%;
+    margin: 1rem auto;
+    padding: 2rem;
+    background-color: rgb(117, 14, 14);
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.formDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem auto;
+}
+
+.formDiv label {
+    width: 100%;
+    text-align: center;
+    margin: 1rem auto;
+    font-size: 1.4rem;
+}
+
+.formDiv input {
+    height: 2rem;
+    width: 60%;
+    text-align: center;
+}
+
+#btn {
+    margin-top: 2rem;
+    width: 50%;
+    height: 3rem;
+    font-size: 1.2rem;
+}
+
+h2 {
+    text-align: center;
+    margin: 2rem 0;
+    font-style: italic;
+    font-weight: 900;
+    font-size: 2.5rem;
+}
+
+.productsTable {
+    width: 70%;
+    margin: 1rem auto;
+    padding: 1rem;
+    background-color: brown;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+#chatForm {
+    width: 60%;
+    margin: 1rem auto;
+    padding: 1rem;
+    background-color: rgb(218, 71, 71);
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+#chatForm label {
+    width: 20%;
+    margin: 0 1rem;
+    font-size: 1.2rem;
+}
+
+#email {
+    width: 40%;
+    height: 2rem;
+    padding: .7rem;
+}
+
+hr {
+    margin: 1rem;
+    color: black;
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+.chat {
+    width: 100%;
+}
+
+.chatDiv {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.messageInput {
+    width: 80%;
+    height: 2rem;
+    padding: 1rem;
+}
+
+.chatBtn {
+    width: 15%;
+}
+
+.td {
+    text-align: center;
+}
+
+.fullMessage {
+    margin: 0.7rem;
+    font-size: 1.2rem;
+}
+
+.prodImage {
+    width: 100px;
+    height: 100px;
+}

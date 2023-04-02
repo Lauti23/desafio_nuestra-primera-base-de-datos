@@ -1,0 +1,48 @@
+<h1>NUESTRA PRIMERA BASE DE DATOS</h1>
+
+<form id="productsForm">
+    <div class="formDiv">
+        <label for="name">Ingrese su producto:</label>
+        <input name="name" id="name" type="text">
+    </div>
+    <div class="formDiv">
+        <label for="price">Ingrese el precio:</label>
+        <input name="price" id="price" type="text">
+    </div>
+    <div class="formDiv">
+        <label for="image">Ingrese el URL de la imagen:</label>
+        <input name="image" id="image" type="text">
+        <button type="submit" id="btn">Guardar producto</button>
+    </div>
+</form>
+
+<h2>PRODUCTOS INGRESADOS</h2>
+<table class="productsTable" id="table">
+    <thead>
+        <tr>
+            <th>PRODUCTO</th>
+            <th>PRECIO</th>
+            <th>URL DE LA IMAGEN</th>
+            <th>ELIMINAR</th>
+        </tr>
+    </thead>
+    <tbody id="tbody">
+
+    </tbody>
+</table>
+
+<form id="chatForm">
+    <label for="email">Ingrese su email para comenzar a chatear:</label>
+    <input type="text" id="email" name="email">
+    <hr>
+    <div class="chat" id="chatHistory">
+
+    </div>
+    <div class="chatDiv">
+        <input class="messageInput" type="text" name="message" id="messageInput" placeholder="Escribe tu mensaje...">
+        <button type="submit" id="chatBtn" class="chatBtn">Enviar</button>
+    </div>
+</form>
+
+<script src="/socket.io/socket.io.js"></script>
+<script src="index.js"></script>

@@ -1,0 +1,22 @@
+{
+  "name": "desafio_primera-base-de-datos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-handlebars": "^7.0.4",
+    "knex": "^2.4.2",
+    "mysql": "^2.18.1",
+    "socket.io": "^4.6.1",
+    "sqlite3": "^5.1.6"
+  }
+}
